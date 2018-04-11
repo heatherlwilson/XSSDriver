@@ -5,6 +5,8 @@ When BurpSuite alerts on XSS in a GET request, this script automates the process
 
 Requirements:
 
+Firefox browser
+
 Watir gem: 'gem install watir'
 
 Geckodriver: Mac - 'brew install geckodriver' or download from https://github.com/mozilla/geckodriver/releases
