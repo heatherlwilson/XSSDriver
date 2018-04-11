@@ -11,6 +11,9 @@ Watir gem: 'gem install watir'
 
 Geckodriver: Mac - 'brew install geckodriver' or download from https://github.com/mozilla/geckodriver/releases
 
+
 Usage:
+
 ruby XSSDriver.rb /path/to/xsspayloads https://URL2Test/paramsFUZZ
+
 XSSDriver will add payloads in place of 'FUZZ'.
