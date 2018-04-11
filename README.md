@@ -1,2 +1,8 @@
 # XSSDriver
 Drives the browser to check for XSS popups and alert on valid payloads.
+
+When BurpSuite alerts on XSS in a GET request, this script automates the process of injecting XSS payloads (SecLists is a good source) into the browser and checking for the existence of a popup. The script alerts on the payload used that triggers a popup.
+
+Requirements:
+Watir gem: 'gem install watir'
+Geckodriver: Mac - 'brew install geckodriver' or download from https://github.com/mozilla/geckodriver/releases
