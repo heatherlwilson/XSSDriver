@@ -19,7 +19,7 @@ end
 
 # Example to enable use of Burp Proxy. 
 # If your site requires authentication, enable the cookie jar in Burp Suite Project Options for the proxy tool.
-# To enable, uncomment the following four lines and comment out line 27. 
+# To enable, uncomment the following three lines and comment out line 27. 
 # profile = Selenium::WebDriver::Firefox::Profile.new
 # profile.proxy = Selenium::WebDriver::Proxy.new http: '127.0.0.1:8080', ssl: '127.0.0.1:8080'
 # browser = Watir::Browser.new :firefox, profile: profile, acceptInsecureCerts: true
