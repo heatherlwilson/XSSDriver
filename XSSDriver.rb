@@ -34,7 +34,7 @@ File.open(xssfile, "r") do |f|
     browser.goto testurl
     sleep(2)
     if browser.alert.exists?
-        puts "Popup detected! - #{testurl}"
+        puts "Popup detected! - Payload: #{line}, URL: #{testurl}"
         browser.alert.close
     end
   end
